@@ -1,13 +1,10 @@
-import React from 'react';
-import {Header} from '../components/Header';
+import React from "react";
+import { Header } from "../components/videosplayer";
 
-export default function formation (){
-    return (
-        <>
-
-
-        <Header />
-
-        </>
-    )
+export default function formation() {
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
